@@ -1,0 +1,268 @@
+.ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: IBM Plex Mono, monospace;
+}
+
+header {
+  background-color: #333;
+  /* Your desired background color */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header * {
+  background-color: inherit;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  /* Added margin-right to list items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1px; /* Adjust padding to make space for text */
+}
+.containerfooter {
+  display: flex;
+}
+
+.left-block,
+.right-block {
+  flex: 1;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100);
+  transition: all 1s;
+}
+
+.button {
+  width: 130px;
+  height: 50px;
+  top: 50%;
+  background-color: #333;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #ffd700;
+  transition: 0.7s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0)
+}
+
+html {
+  font-family: Calibri, sans-serif;
+}
+
+.cd__main {
+  max-width: 600px;
+  padding: 0 1;
+  /* Adjusted max-width */
+}
+
+.lr-img {
+  max-width: 250px;
+  /* Adjusted max-width for images */
+  height: auto;
+  padding: 0.5em;
+
+}
+
+.image-left,
+.image-right {
+  margin: 1em 0;
+}
+
+.image-left{
+  padding-left: 15px;
+}
+.image-right{
+  padding-left: 18px;
+}
+.separator {
+  border-left: 1px solid rgba(0, 0, 0, 1);
+  /* Translucent border line */
+  height: 100%;
+  /* Full height of the container */
+  margin: 0 5px;
+  /* Adjust margin as needed */
+}
+
+.left-section {
+  position: relative;
+
+  top: -20px; 
+  padding-left: 17px;
+  
+}
+
+.middle-text {
+  padding-right: 145px;
+}
+
+.center {
+  /*text-align: center; */
+  /* Center align text */
+  padding-left: 130px;
+}
+
+@media (min-width: 20em) {
+
+  .image-left,
+  .image-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .image-left img {
+    margin-right: 1em;
+    float: left;
+  }
+
+  .image-right img {
+    order: 1;
+    margin-left: 1em;
+    float: right;
+  }
+
+  /* clearfix for fallback */
+  .image-left::after,
+  .image-right::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 30em) {
+
+  .image-left img,
+  .image-right img {
+    flex-shrink: 0;
+  }
+}

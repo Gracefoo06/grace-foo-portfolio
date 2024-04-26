@@ -1,0 +1,76 @@
+{
+  "leaderboards": {
+    "J7ZQ4C8H7hWXW9jOW0r9Gcge0N82": {
+      "displayName": "rainbow",
+      "score": 6
+    },
+    "Mfmlffjve4XIz9jhyroZncxaQMl2": {
+      "displayName": "bigbig",
+      "score": 1
+    },
+    "Y7mu1F31eabZFIB0mj09R79OTTq2": {
+      "displayName": "nosmash",
+      "score": 0
+    },
+    "hIwvF8FZIMPdwqPlw4vnSCMDqml2": {
+      "displayName": "somehting",
+      "score": 3
+    },
+    "zguA2XDw4aVjyfS4yMtRGu2I1pA2": {
+      "displayName": "grac",
+      "score": 3
+    }
+  },
+  "playerStats": {
+    "J7ZQ4C8H7hWXW9jOW0r9Gcge0N82": {
+      "DisplayName": "rainbow",
+      "score": 6
+    },
+    "Mfmlffjve4XIz9jhyroZncxaQMl2": {
+      ".priority": "{\"DisplayName\":\"small\",\"score\":1}",
+      "DisplayName": "bigbig",
+      "score": 1
+    },
+    "Y7mu1F31eabZFIB0mj09R79OTTq2": {
+      "DisplayName": "nosmash",
+      "score": 0
+    },
+    "hIwvF8FZIMPdwqPlw4vnSCMDqml2": {
+      ".priority": "{\"DisplayName\":\"somehting\",\"score\":3}",
+      "DisplayName": "somehting",
+      "score": 3
+    },
+    "zguA2XDw4aVjyfS4yMtRGu2I1pA2": {
+      ".priority": "{\"DisplayName\":\"grace\",\"score\":3}",
+      "DisplayName": "grac",
+      "score": 3
+    }
+  },
+  "players": {
+    "J7ZQ4C8H7hWXW9jOW0r9Gcge0N82": {
+      "HighScore": 6,
+      "displayName": "rainbow",
+      "email": "pinkie@gmail.com"
+    },
+    "Mfmlffjve4XIz9jhyroZncxaQMl2": {
+      "HighScore": 1,
+      "displayName": "bigbig",
+      "email": "smaller@gmail.com"
+    },
+    "Y7mu1F31eabZFIB0mj09R79OTTq2": {
+      "HighScore": 0,
+      "displayName": "nosmash",
+      "email": "smasher@gmail.com"
+    },
+    "hIwvF8FZIMPdwqPlw4vnSCMDqml2": {
+      "HighScore": 3,
+      "displayName": "somehting",
+      "email": "panda@gmail.com"
+    },
+    "zguA2XDw4aVjyfS4yMtRGu2I1pA2": {
+      "HighScore": 3,
+      "displayName": "grac",
+      "email": "eevealexb3@gmail.com"
+    }
+  }
+}
