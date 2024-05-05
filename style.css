@@ -90,11 +90,13 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding:  20px 65px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Ensure header spans the entire width */
+  width: 100%;
+  font-size: 21px ;
+  overflow: unset; /* Ensure header spans the entire width */
 }
 
 header * {
@@ -109,7 +111,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 20px;
+  margin-right: 23px;
   /* Added margin-right to list items */
 }
 
